@@ -2,8 +2,8 @@
 
 .bg-button { background: var(--color-primary)!important; box-shadow: none!important; }
 .text-check { color: rgba(255, 255, 255, 0.8)!important; }
-.text-checkbox { color: #0fffd5!important; }
-.q-checkbox__svg { color: #000!important; }
+.text-checkbox { color: #7f0fff!important; }
+.q-checkbox__svg { color: #ffffffcc!important; }
 div#q-loading-bar { display: none!important; }
 .q-card { background: var(--color-primary)!important; }
 p { margin: 0 !important; }
@@ -25,9 +25,9 @@ p { margin: 0 !important; }
 }
 
 :root {
-    --color-primary: #23242e;
-    --color-secondary: #383942;
-    --color-accent: rgb(65, 199, 165);
+    --color-primary: #111116;
+    --color-secondary: #1c1c1f77;
+    --color-accent: #cd85f3;
 }
 
 .fas.fa-lock {
@@ -70,7 +70,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #191b1f;
+    background: #cd85f3;
     border-radius: 15px;
 }
 
@@ -226,7 +226,7 @@ body {
 .player-inventory > .item-slot > .item-slot-key > p {
     position: absolute; 
     font-weight: 400; 
-    color: #20202062; 
+    color: #111116; 
     padding-top: 4vh; 
     padding-bottom: 0px; 
     padding-left: 2.35vh; 
@@ -239,7 +239,7 @@ body {
 .player-inventory-first > .item-slot > .item-slot-key > p {
     position: absolute; 
     font-weight: 400; 
-    color: #20202062; 
+    color: #111116; 
     padding-top: 4vh; 
     padding-bottom: 0px; 
     padding-left: 2.35vh; 
@@ -307,8 +307,8 @@ body {
     width: 98px;
     height: 98px;
     float: left;
-    border: 2px solid #41414b;
-    background-color: #33343d !important;
+    border: 1px solid #41414b;
+    background-color: #111116 !important;
     margin: 3px;
     transition: opacity 0.2s ease 0s;
     border-radius: 9px;
@@ -459,7 +459,7 @@ body {
     position: absolute;
     top: 0.3%;
     left: 0.15vw;
-    background-color: #41414b;
+    background-color: #41414b00;
     padding-right: 4px;
     padding-left: 4px;
     border-radius: 50px;
@@ -477,7 +477,7 @@ body {
     position: absolute;
     top: 0.3%;
     right: 0.15vw;
-    background-color: #41414b;
+    background-color: #41414b00;
     padding-right: 4px;
     padding-left: 4px;
     border-radius: 50px;
@@ -571,7 +571,7 @@ body {
 }
 
 .ui-draggable-dragging {
-    background: rgba(0, 0, 0, 0.3);
+    background: #1111164d;
     z-index: 9999;
 }
 
@@ -695,7 +695,7 @@ body {
     position: absolute;
     font-family: 'Roboto', sans-serif !important;
     width: 85%;
-    background-color: #6d6d6d96;
+    background-color: #e60c0c96;
     height: 0.13vh;
 }
 
@@ -734,8 +734,8 @@ body {
     margin-right: 1vh;
     width: 10vh;
     height: 11vh;
-    border: 2px solid #41414b;
-    background-color: #33343d !important;
+    border: 1px solid #41414b;
+    background-color: #111116 !important;
     border-radius: 9px;
 }
 
@@ -862,7 +862,7 @@ body {
 .z-hotbar-inventory > .z-hotbar-item-slot > .z-hotbar-item-slot-key > p {
     position: absolute; 
     font-weight: 400; 
-    color: #20202062; 
+    color: #ebf1ff2d; 
     padding-top: 42%; 
     padding-bottom: 0px; 
     padding-left: 29%; 
@@ -880,8 +880,8 @@ body {
     width: 6.15rem;
     height: 6.15rem;
     float: left;
-    border: 2px solid #41414b;
-    background-color: #33343d !important;
+    border: 0px solid #41414b;
+    background-color: #111116 !important;
     margin: 3px;
     transition: opacity 0.2s ease 0s;
     border-radius: 9px;
@@ -893,7 +893,7 @@ body {
     position: absolute;
     top: 0.5%;
     left: 0.15vw;
-    background-color: #41414b;
+    background-color: #111116;
     padding-right: 4px;
     padding-left: 4px;
     border-radius: 50px;
@@ -911,7 +911,7 @@ body {
     position: absolute;
     top: 0.5%;
     right: 0.15vw;
-    background-color: #41414b;
+    background-color: #111116;
     padding-right: 4px;
     padding-left: 4px;
     border-radius: 50px;
@@ -979,7 +979,7 @@ body {
     top: 0;
     width: 100%;
     height: 5vh;
-    background-color: rgba(120, 10, 20, 0.5);
+    background-color: rgba(20, 18, 32, 0.2);
     text-align: center;
     color: rgba(216, 216, 216, 0.897);
 }
@@ -1253,8 +1253,8 @@ body {
         width: 133px;
         height: 133px;
         float: left;
-        border: 2px solid #41414b;
-        background-color: #33343d !important;
+        border: 1px solid #41414b;
+        background-color: #111116 !important;
         margin: 3px;
         transition: opacity 0.2s ease 0s;
         border-radius: 9px;
@@ -1268,7 +1268,7 @@ body {
         width: 133px;
         height: 133px;
         float: left;
-        border: 2px solid #41414b;
+        border: 1px solid #41414b;
         background-color: #33343d !important;
         margin: 3px;
         transition: opacity 0.2s ease 0s;
@@ -1387,5 +1387,5 @@ body {
 .craft-item-slot {
     width: 30%;
     height: 30%;
-    background: #0fffd5;
+    background: #cd85f3;
 }
